@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(./header.css);
+@import url(./section.css);
+@import url(./footer.css);
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+}
+
+/* 
+    #08DEFB - ciano
+    #FEAD0D - amarelo
+    #FF3DD2 - rosa
+    #2F004C - cor escura
+    #FFFFFF - branco
+
+    fonte primaria - "Bebas Neue"
+    fonte secundaria - "Noto Serif"
+*/

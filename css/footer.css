@@ -1,0 +1,30 @@
+footer{
+    width: 90%;
+    height: 10%;
+
+    padding: 0 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.btn_rodape{
+    width: 2.5vw;
+    height: 2.5vw;
+
+    margin-left: 0.5%;
+}
+
+.btn_rodape i{
+   font-size: 2.5vw;
+   color: #2F004C ;
+
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+}
+
+.btn_rodape i:hover{
+    transform: scale(1.3);
+}

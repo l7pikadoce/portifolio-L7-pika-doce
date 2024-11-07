@@ -1,0 +1,72 @@
+header {
+    width: 90%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #333333; /* Fundo escuro para contraste */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #b29f60; /* Borda dourada */
+}
+
+#logo {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icone_logo {
+    width: 4vw;
+    height: 4vw;
+    background-image: url(https://files.oaiusercontent.com/file-3gXqgvDIV5ZKCz0pMlso6IjZ?se=2024-10-25T00%3A17%3A32Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dd82afed8-fd5c-4906-a78a-7d139bca57b0.webp&sig=cqm8IH%2B1DgF4DesxaAZn4FkLP/epTzmyzeVyN6pXc9w%3D);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#profissao {
+    width: 80%;
+    height: 80%;
+    font-family: "Noto Serif";
+    font-size: 0.8vw;
+    color: #f5deb3; /* Texto dourado claro */
+    display: flex;
+    align-items: center;
+}
+
+#btns_cabecalho {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_cabecalho {
+    width: 30%;
+    height: 80%;
+    background-color: #b8cc00; /* Cor dourada suave */
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out; /* Transição suave */
+}
+
+.btn_cabecalho:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% */
+}
+
+.btn_cabecalho i {
+    font-size: 1.2vw;
+    color: #0A0C0C;
+    transition: font-size 0.3s ease-in-out;
+}
