@@ -61,3 +61,31 @@ section{
     width: auto;
     height: 67vh;
 }
+@media (max-width:480px) {
+    #img_prin{
+        width: 80%;
+        height: auto;
+
+        position: absolute;
+    }
+
+    #texto_prin{
+        width: 80%;
+        height: 70%;
+    }
+    
+    #nome{
+        height: 25%;
+        font-size: 20vw;
+    }
+    
+    #sobrenome{
+        height: 20%;
+        font-size: 13vw;
+    }
+    
+    #detalhes{
+        height: 55%;
+        font-size: 3vw;
+    }
+}
